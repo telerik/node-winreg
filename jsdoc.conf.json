@@ -1,0 +1,42 @@
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "opts": {
+      "template": "./node_modules/ink-docstrap/template",
+      "encoding": "utf8",
+      "destination": "./docs/",
+      "recurse": true,
+      "private": true,
+      "lenient": true,
+      "verbose": true,
+      "nocolor": true
+  },
+  "source": {
+      "include": [
+        "./lib",
+        "./README.md"
+      ],
+      "includePattern": ".+\\.js(doc)?$"
+  },
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "systemName": "node-winreg",
+    "footer": "",
+    "copyright": "Copyright &copy; 2014 Paul Bottin.",
+    "navType": "vertical",
+    "linenums": true,
+    "theme": "cyborg"
+  } ,
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": true
+  }
+}

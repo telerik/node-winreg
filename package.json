@@ -4,7 +4,8 @@
   "description": "provides access to the windows registry through the REG tool",
   "main": "lib/registry.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "vows test/* -v",
+    "docs": "jsdoc -c ./jsdoc.conf.json"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,12 @@
     "windows",
     "registry"
   ],
+  "devDependencies": {
+    "vows": "*",
+    "jsdoc": "*",
+    "moment": "*",
+    "ink-docstrap": "*"
+  },
   "author": "Paul Bottin",
   "license": "BSD",
   "readmeFilename": "README.md",

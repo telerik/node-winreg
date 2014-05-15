@@ -1,6 +1,7 @@
 
 # node-winreg #
 
+[![NPM](https://nodei.co/npm/winreg.png?downloads=true&stars=true)](https://nodei.co/npm/winreg/)
 
 ## Summary ##
 

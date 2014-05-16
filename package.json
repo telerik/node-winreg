@@ -9,6 +9,7 @@
     "download-docs": "git clone -b gh-pages https://github.com/fresc81/node-winreg.git docs",
     "checkout-docs": "git clone -b gh-pages git@github.com:fresc81/node-winreg.git docs"
   },
+  "homepage": "http://fresc81.github.io/node-winreg",
   "repository": {
     "type": "git",
     "url": "git://github.com/fresc81/node-winreg.git"
@@ -18,10 +19,10 @@
     "registry"
   ],
   "devDependencies": {
-    "vows": "*",
-    "jsdoc": "*",
-    "moment": "*",
-    "ink-docstrap": "*"
+    "vows": "~0.7.0",
+    "jsdoc": "~3.3.0",
+    "moment": "~2.6.0",
+    "ink-docstrap": "~0.4.0"
   },
   "author": "Paul Bottin",
   "license": "BSD",
